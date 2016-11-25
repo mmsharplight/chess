@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 200px;
+    color: #E0FFFF;
+    font-family: STKaiti;
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.describe {
+    width: 500px;
+    color: #E0FFFF;
+    font-family: STKaiti;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.button {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1 {
+    margin: 20px;
+     width: 90px;
+     height: 30px;
+     font-size: 13px;
+     border-radius: 30px; 
+
+}
+
+.button2 {
+    margin: 20px;
+    width: 90px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 30px; 
+}

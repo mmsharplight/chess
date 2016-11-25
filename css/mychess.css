@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mycanvas {
+    /*position: relative;*/
+    width: 650px;
+    height: 650px;
+}
+
+#canvas {
+    left: 0px;
+    top: 0px;
+}
+.p{
+    margin-right: 200px;
+}
+
+.buttons {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 600px;
+    width: 600px;
+    z-index: 1;
+}
+
+.sets{
+    position: relative;;
+    width: 500px;
+    height: 600px;
+}
+
+.background {
+    margin-left: 800px;
+    margin-top: -500px;
+}
+
+.setandchangecolor {
+    margin-left: 800px;
+}
+
+.textform {
+    width: 30px;
+    margin: 5px;
+}
+
+#sum {
+    width: 40px;
+}
+
+.button {
+    background-color: #ff0000;
+    width: 16px;
+    height: 16px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.buttonstyle {
+    color: red;
+    top: 100px;
+    width: 100px;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+.user_submit {
+    font-size: 10px;
+    margin-top: 55px;
+    margin-left: 570px;
+    width: 60px;
+    border-radius: 30px;
+    background-color: #E0FFFF;
+}
+
+.form_submit {
+    font-size: 10px;
+    border-radius: 30px;
+    background-color: #E0FFFF;
+}

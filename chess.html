@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>棋战</title>
+    <link rel="stylesheet" type="text/css" href="css/mychess.css">
+    <link rel="icon" type="image/x-icon" href="img/smallstar.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/smallstar.ico" />
+    <link rel="bookmark" href="img/smallstar.ico" />
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+</head>
+
+<body background="img/chessbg5.jpg">
+    <div class="mycanvas">
+        <canvas id="canvas" height="600" width="600">你的浏览器不支持HTML5 canvas，请使用 google chrome 浏览器打开</canvas>
+        <div class="buttons">
+        </div>
+    </div>
+    <div>
+
+        <div class="background">
+         <p class="rule">玩家一：tuzi   玩家二：xiaotuzi 默认玩家一开棋</p>
+            背景：
+            <select onChange="document.body.background=this.value;" style="font-size:24px">
+                <option value="img/chessbg5.jpg">白色松树
+                    <option value="img/chessbg8.jpg">萌萌哒大白哦
+                        <option value="img/chessbg9.jpg">心心相印
+                            <option value="img/chessbg7.jpg">粉色浪漫
+                                <option value="img/chessbg6.jpg">蓝色幻想</select>
+        </div class="sets">
+        <div class="setandchangecolor">
+            黑色
+            <input type="checkbox" checked="checked" />
+            <input type="text" name="textform" id="text1" class="textform" />个
+            <br/> 白色
+            <input type="checkbox" checked="checked" />
+            <input type="text" name="textform" id="text2" class="textform" />个
+            <br/> 红色
+            <input type="checkbox" checked="checked" />
+            <input type="text" name="textform" id="text3" class="textform" />个
+            <br/> 蓝色
+            <input type="checkbox" />
+            <input type="text" name="textform" id="text4" class="textform" />个
+            <br/> 绿色
+            <input type="checkbox" />
+            <input type="text" name="textform" id="text5" class="textform" />个
+            <br/> 黄色
+            <input type="checkbox" />
+            <input type="text" name="textform" id="text6" class="textform" />个
+            <br/> 粉色
+            <input type="checkbox" />
+            <input type="text" name="textform" id="text7" class="textform" />个
+            <br/> 紫色
+            <input type="checkbox" />
+            <input type="text" name="textform" id="text8" class="textform" />个
+            <input type="text" id="sum" />
+            <br/>
+            <input type="submit" value="好啦，就要这些棋子吧！" class="form_submit">
+            <br/>
+        </div>
+        <input type="submit" value="选好啦!" class="user_submit" />
+        <br/>
+    </div>
+    <script type="text/javascript" src="js/mychess.js"></script>
+    <script type="text/javascript" src="js/myset.js"></script>
+</body>
+
+</html>
